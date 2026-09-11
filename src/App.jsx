@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechCard from './components/TechCard';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 function App() {
   const [technologies, setTechnologies] = useState([]);
@@ -51,6 +52,7 @@ function App() {
       <ToastContainer position="top-right" />
       <Navbar />
       <Hero />
+      
 
       <div className="max-w-7xl mx-auto px-10 py-12 flex gap-8">
         <div className="w-3/4">
@@ -86,6 +88,7 @@ function App() {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
